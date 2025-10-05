@@ -1,0 +1,91 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  flex: 0 0 30%;
+  background-color: #131313;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.input-row input {
+  padding: 4px 8px;
+  width: 100px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.data-selector {
+  margin-bottom: 20px;
+}
+
+/* CONTROL RACK */
+
+.control-rack {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+/* BUTTONS */
+
+/* PREVIOUS QUERY BUTTON */
+
+.previous-query-button {
+  width: 50%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.previous-query-button:hover {
+  background-color: #0056b3;
+}
+
+/* DOWNLOAD BUTTON */
+
+.download-button {
+  width: 50%;
+  background-color: #ff1100;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.download-button:hover {
+  background-color: #b30000;
+}
+
+/* FETCH BUTTON */
+
+.fetch-button {
+  width: 80%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.fetch-button:hover {
+  background-color: #0056b3;
+}
